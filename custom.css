@@ -2,27 +2,6 @@
    CUSTOM PS4-STYLE SKIN
    ========================= */
 
-.controller::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: url(https://matiinb.github.io/kiwi-controller/particles.gif) center / contain no-repeat;
-    mix-blend-mode: screen;
-    pointer-events: none;
-    z-index: 999;
-    -webkit-mask-image: url(https://matiinb.github.io/nasta-controller/mask.png);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: 6px -39px;
-    -webkit-mask-size: auto 591px;
-    mask-image: url(https://matiinb.github.io/nasta-controller/mask.png);
-    mask-repeat: no-repeat;
-    mask-position: 6px -39px;
-    mask-size: auto 591px;
-    width: 806px !important;
-    height: 598px !important;
-    top: 41px;
-}
-
 .controller.custom {
     position: fixed !important;
     top: 46% !important;
